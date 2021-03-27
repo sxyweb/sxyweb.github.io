@@ -1,0 +1,89 @@
+body {
+    background: url("../img/program_background.png");
+}
+
+.buttons {
+    display: block;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+    width: 60px;
+    float: left;
+    z-index: -999;
+}
+
+.buttons li {
+    margin-top: 10px;
+    width: 80px;
+    height: 65px;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.buttons li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.buttons li:first-child {
+    background: none;
+    margin-left: -15px;
+    margin-top: -10px;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+
+#canvas {
+    width: 85%;
+    float: left;
+    margin-top: 20px;
+    z-index: 999;
+    height: auto;
+    background: #ffffff;
+    border: 1px solid #000000;
+    display: none;
+}
+
+
+.search {
+    line-height: 50px;
+}
+
+.view {
+    width: 100%;
+!important;
+    height: auto;
+}
+
+
+#time {
+    display: block;
+    line-height: 50px;
+}
+
+#canvas span {
+    display: block;
+    float: right;
+}
+
+#tyb {
+    border: 5px solid #000000;
+    background: #ffffff;
+}
+
+#canvas span {
+    cursor: pointer;
+    margin: 0 5px 0 5px
+}
+
+footer {
+    background: rgba(215, 218, 226, 0.8);
+    height: 50px;
+}
+
+.footer_button {
+    display: none;
+    cursor: pointer;
+}

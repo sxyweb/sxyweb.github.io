@@ -1,0 +1,15 @@
+*{
+    color: #fff3cd;
+}
+#shsj{
+    width: 85%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+video{
+    max-width: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+}

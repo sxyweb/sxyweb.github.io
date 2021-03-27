@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./img/university.ico" type="image/x-icon">
+    <title>大学，生活，未来 university，lives，future</title>
+    <link rel="stylesheet" type="text/css" href="SX_css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="SX_css/music.css"/>
+    <link rel="stylesheet" type="text/css" href="SX_css/bootstrap/bootstrap.css"/>
+    <script src="SX_js/jquery/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="SX_js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+    <script src="SX_js/index.js" type="text/javascript"></script>
+    <script src="SX_js/music.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!-- 加载动画 -->
+<div class="spinner" id="loadingBar"></div>
+
+<!-- 主题标题区块 -->
+<header class="header_nav">
+    <nav class="">
+        <div id="demo" class="carousel slide mx-auto" data-ride="carousel">
+
+            <!-- 指示符 -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- 轮播图片 -->
+            <div class="carousel-inner mw-100">
+                <div class="carousel-item active">
+                    <img class=" img-fluid" alt="university." src="img/bglunb/zylunb_1.jpg">
+                    <div class="carousel-caption" style="color: #e1fa00">
+                        <h1>瞬间</h1>
+                        <p>university.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class=" img-fluid" alt="lives." src="img/bglunb/zylunb_2.jpg">
+                    <div class="carousel-caption" style="color: #00fa8e">
+                        <h1>生活</h1>
+                        <p>lives.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class=" img-fluid" alt="future." src="img/bglunb/zylunb_3.jpg">
+                    <div class="carousel-caption" style="color: #ff7fe7">
+                        <h1>未来</h1>
+                        <p>future.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 左右切换按钮 -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </nav>
+</header>
+
+<!-- 头部固定页内导航栏 -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">页内导航</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#section1">介绍</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section2">功能</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section3">声明</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- 主题内容区块 -->
+<article>
+    <!--全站导航-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark mx-auto" id="allnav">
+        <a class="navbar-brand" href="#">全站导航</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleALL">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleALL">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="html/demo.html" target="_blank">登录</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/program.html">Win10模拟</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/lunbo.html">视频观澜</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/jianjie.html" target="_blank">许氏简介</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container_art mx-auto">
+
+        <div id="section1" class="row">
+            <div class="col-xl-4 headdemo1">
+                <!--下拉折叠1-->
+                <div id="accordion_1">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-link">
+                                我的日常记录
+                            </h4>
+                        </div>
+                        <!--下拉折叠效果collapse-->
+                        <div class="card-header" data-toggle="collapse" href="#collapse1One">
+                            <a class="card-link">
+                                李府刚
+                            </a>
+                        </div>
+                        <div id="collapse1One" class="collapse show" data-parent="#accordion_1">
+                            <div class="card-body">
+                                变化才能实现梦想！冲冲冲！加油！奥利给！！
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" href="#collapse1Two">
+                            <a class="collapsed card-link">
+                                邵潇遥
+                            </a>
+                        </div>
+                        <div id="collapse1Two" class="collapse" data-parent="#accordion_1">
+                            <div class="card-body">
+                                想想自己还没有真正独自出去“自嗨”过，一个人或许孤独，或许无趣，但是却自由而不受拖累，也不用在意别人的感受，凡事换个想法看看就能乐观许多，期待明天的到来。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" href="#collapse1Three">
+                            <a class="collapsed card-link">
+                                许祥斌
+                            </a>
+                        </div>
+                        <div id="collapse1Three" class="collapse" data-parent="#accordion_1">
+                            <div class="card-body">
+                                日子在一天天的数，也许这就是日子。闲暇时去梳理自己的生活，和闯关游戏是一样的。以为可以稳稳的去开始接受新生活，我也太期待未来美好生活的出现，世事难料，好像一夜又回到了解放前！我开始接受这样的日子，因为对于未来我仍有期待，终将会美好。这就是过日子。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--介绍-->
+            <div class="col-xl-8 headdemo2">
+                <div class="fakeimg">
+                    <ul class="contentbox-six">
+                        <li class="con-six">
+                            <img class="conimg-two" src="img/weilai.jpeg">
+                            <div class="txt-six">
+                                <h3>二十岁的梦</h3>
+                                <p>花儿虽不能选择生长的地方，但它可以选择美丽。过去的一切，我们不能改变，就让它过去，
+                                    我们唯有把握好现在，用行动期盼我们的未来。</p>
+                                <p>&nbsp</p>
+                                <hr color="#00ffff">
+                                <p>
+                                    <span><img src="img/xiaotubiao/clock.png" width="23px" height="23px"></span>
+                                    2020-6-15
+                                    <span> &nbsp <img src="img/xiaotubiao/pinglun.png" width="20px"
+                                                      height="23px"></span>
+                                    评论
+                                    <span> &nbsp <img src="img/xiaotubiao/yuedu.png" width="50px" height="50px"></span>
+                                    666阅读
+                                    <span>&nbsp;<img src="img/xiaotubiao/dianzan.png" width="20px" height="23px"></span>
+                                    99个点赞
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="section2" class="row">
+            <div class="col-xl-4 headdemo1">
+                <!--下拉折叠2音乐盒-->
+                <div id="accordion_2">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-link">
+                                音乐盒
+                            </h4>
+                        </div>
+                        <!--下拉折叠效果collapse-->
+                        <div class="card-header" data-toggle="collapse" href="#collapse2One">
+                            <a class="card-link">
+                                正在播放
+                            </a>
+                        </div>
+                        <div id="collapse2One" class="collapse show" data-parent="#accordion_2">
+                            <div class="card-body">
+                                <div class="playDiv">
+                                    <div class="currentMusic">
+                                        <span class="currentSpan">
+                                            当前正在播放：
+                                            <span id="playMsg"></span>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <audio id="musicBox" controls onended="myMusic.nextMusic()"
+                                               style="width:99%;padding-left:2px;">
+                                            无法播放音乐咯。
+                                        </audio>
+                                    </div>
+                                    <div class="currentBtns">
+                                        <div id="lastMusic" class="lastMusic">
+                                            <img title="第一首歌曲" alt="第一首歌曲" src="./img/music/first.png"
+                                                 onclick="myMusic.fristMusic()"/>&nbsp;&nbsp;
+                                            <img title="上一首歌曲" alt="上一首歌曲" src="./img/music/last.png"
+                                                 onclick="myMusic.lastMusic()"/>&nbsp;&nbsp;
+                                            <img title="点击暂停" alt="点击暂停" id="pop" src="./img/music/pause.png"
+                                                 onclick="myMusic.playOrPause()"/>&nbsp;&nbsp;
+                                            <img title="下一首歌曲" alt="下一首歌曲" src="./img/music/next.png"
+                                                 onclick="myMusic.nextMusic()"/>&nbsp;&nbsp;
+                                            <img title="最后一首歌曲" alt="最后一首歌曲" src="./img/music/end.png"
+                                                 onclick="myMusic.end()"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" href="#collapse2Two">
+                            <a class="collapsed card-link">
+                                歌曲列表
+                            </a>
+                        </div>
+                        <div id="collapse2Two" class="collapse" data-parent="#accordion_2">
+                            <div class="card-body d-flex align-items-start">
+                                <div class="songStyle float_l">
+                                    <div class="float_r">
+                                            <span class="playMode">
+                                                <b>你 的 音 乐 ：</b>
+                                                <label for="playMode"></label>
+                                                <select id="playMode">
+                                                    <option value="1">全部循环</option>
+                                                    <option value="2">单曲循环</option>
+                                                    <option value="3">随机播放</option>
+                                                </select>
+                                            </span>
+                                    </div>
+                                    <div id="songs">
+                                        <ul id="musicList">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" href="#collapse2Three">
+                            <a class="collapsed card-link">
+                                歌曲信息
+                            </a>
+                        </div>
+                        <div id="collapse2Three" class="collapse" data-parent="#accordion_2">
+                            <div class="card-body">
+                                <div class="infoStyle float_l">
+                                    <div id="infos">
+                                        <div class="info float_l">
+                                            <div><strong><span>歌名:</span><span id="name"></span></strong></div>
+                                            <div><strong><span>歌手:</span><span id="author"></span></strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--功能-->
+            <div class="col-xl-8 headdemo2">
+                <ul class="contentbox-six">
+                    <li class="con-six">
+                        <img class="conimg-two" src="img/time.jpg">
+                        <div class="txt-six">
+                            <h3>时光煮雨</h3>
+                            <p style="text-indent: 2em;">
+                                残梦已尽，为何还痴痴不放?往事已过，为何还迟迟不忘?陌路上的人身已转,为何还苦苦相追?匆匆人生，残酷的岁月留下多少无情的痕。</p>
+                            <p>&nbsp</p>
+                            <hr color="#00ffff">
+                            <p>
+                                <span><img height="23px" src="img/xiaotubiao/clock.png" width="23px"></span>
+                                2020-6-18
+                                <span> &nbsp; <img height="23px" src="img/xiaotubiao/pinglun.png" width="50px"></span>
+                                评论
+                                <span>&nbsp <img height="50px" src="img/xiaotubiao/yuedu.png" width="50px"></span>
+                                470阅读
+                                <span>&nbsp;<img height="23px" src="img/xiaotubiao/dianzan.png" width="20px"></span>15个点赞</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <!-- 按钮：用于打开模态框 -->
+        <button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#myModal"
+                style="display: block">
+            甜 甜 圈
+        </button>
+
+        <!-- 模态框 -->
+        <div class="modal fade" id="myModal" >
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- 模态框头部 -->
+                    <div class="modal-header">
+                        <h5 class="modal-title">甜甜圈</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- 模态框主体 -->
+                    <div class="modal-body">
+                        <img src="img/v2.jpg" alt="甜甜圈" style="width: 96%!important;">
+                    </div>
+
+                    <!-- 模态框底部 -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="section3" class="container" style="width: 85%;">
+        <!-- 跳球动画效果   -->
+        <div class="row">
+            <div class="col">
+                <div class="wrap red">
+                    <div class="shadow"></div>
+                    <div class="ball"></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="wrap green">
+                    <div class="shadow"></div>
+                    <div class="ball">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="wrap blue">
+                    <div class="shadow"></div>
+                    <div class="ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</article>
+
+<!-- 尾部信息栏区块 -->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                    <span class="col text-center" style="font-size: 12px">
+                        我o(^▽^)o已运行：
+                        <span id="span_website_time"></span>
+                    </span>
+            </div>
+            <div class="col">
+                J1801719李府刚
+                J1801737邵潇遥
+                J1801715许祥斌
+            </div>
+            <div class="col">
+                <span class="col text-center" style="font-size: 12px">
+                    鲁ICP备20024020号
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!--调用时间函数-->
+    <script type="text/javascript">
+        // 建站时间实现
+        function show_date_time() {
+            window.setTimeout("show_date_time()", 1e3);
+            const BirthDay = new Date("2020/06/19"),			//时间设定
+                today = new Date,
+                timeold = today.getTime() - BirthDay.getTime(),
+                msPerDay = 864e5,
+                e_daysold = timeold / msPerDay,
+                daysold = Math.floor(e_daysold),
+                e_hrsold = 24 * (e_daysold - daysold),
+                hrsold = Math.floor(e_hrsold),
+                e_minsold = 60 * (e_hrsold - hrsold),
+                minsold = Math.floor(60 * (e_hrsold - hrsold)),
+                seconds = Math.floor(60 * (e_minsold - minsold));
+            document.getElementById('span_website_time').innerHTML = daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+        }
+
+        show_date_time();
+    </script>
+</footer>
+</body>
+</html>
